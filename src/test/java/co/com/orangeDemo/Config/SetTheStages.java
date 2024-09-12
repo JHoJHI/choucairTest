@@ -4,11 +4,10 @@ import cucumber.api.java.Before;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
-public class SetTheStage {
+public class SetTheStages {
 
     @Before
-    public void setTheStage(){
+    public void setTheStage() {
         OnStage.setTheStage(new OnlineCast());
     }
-
 }
