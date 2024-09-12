@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Realizar el proceso de contratación de una persona" skipped="1" tests="1" time="0.13" timestamp="2024-09-12 05:43:19"><testcase name="Anadir la contratacion de una persona"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Realizar el proceso de contratación de una persona" skipped="0" tests="1" time="83.45" timestamp="2024-09-12 05:44:01"><testcase name="Anadir la contratacion de una persona"><failure message="&#10;Expected: an element that is present&#10;     but: no matching element found by xpath: //button[contains(@class, 'oxd-button') and contains(@class, 'oxd-button--success')] was not present" type="java.lang.AssertionError">
+Expected: an element that is present
+     but: no matching element found by xpath: //button[contains(@class, 'oxd-button') and contains(@class, 'oxd-button--success')] was not present</failure><system-err>
+Expected: an element that is present
+     but: no matching element found by xpath: //button[contains(@class, 'oxd-button') and contains(@class, 'oxd-button--success')] was not present&#13;
+co.com.orangeDemo.tasks.Recruitment.performAs(Recruitment.java:39)&#13;
+co.com.orangeDemo.stepdefinitions.AnadirNuevoUsuarioSteps.seAnadeUnUsuarioYSeRealizaElProcesoDeContratacion(AnadirNuevoUsuarioSteps.java:38)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

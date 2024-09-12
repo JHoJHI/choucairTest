@@ -62,7 +62,7 @@ public class Recruitment implements Task {
                 Click.on(BUTTON_SCHEDULE_INTERVIEW),
                 Scroll.to(INPUT_INTERVIEW_TITLE),
                 Enter.theValue("textoprueba").into(INPUT_INTERVIEW_TITLE),
-                Enter.theValue("Ra").into(INPUT_INTERVIEWER_TITLE),
+                Enter.theValue("R").into(INPUT_INTERVIEWER_TITLE),
                 esperar(5000),
                 Hit.the(ARROW_DOWN).into(INPUT_INTERVIEWER_TITLE),
                 Hit.the(ENTER).into(INPUT_INTERVIEWER_TITLE),
