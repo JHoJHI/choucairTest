@@ -40,3 +40,8 @@ gradle-app.setting
 !gradle-wrapper.jar
 # Cache of project
 .gradletasknamecache
+.scannerwork/.sonar_lock
+.scannerwork/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
